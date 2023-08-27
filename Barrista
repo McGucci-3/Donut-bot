@@ -1,13 +1,17 @@
-#Donut Barrista assembley!
+#Robot Donut Barrista assembley!
 
-print("Hello, Welcome to bobs Donuts")
+print("Hello, Welcome to Bob's Donuts")
 name = input("What is your name? \n")
 #Ian
-print("Hello " + name + ", thank you for coming in today!")
+print("Hello " + name + ",thank you for coming in today!")
 menu = "OG Glazed, Banana, Biscoff"
-print(name + ", What would you like today? \n" + menu)
+print(name + ", What would you like to order? \n" + menu)
 order = input()
 #OG Glazed
 print("Sounds good " + name + ", coming right up! \n" + order + " will be ready in a moment!")
+
+#Assign OG Glazed integer/price of £5 
+#Ask if they want to pay with £5, £10, £20 note 
+#Make bot caculate change. 
 
 #IF/ELSE - People named Bob get free donuts. 
