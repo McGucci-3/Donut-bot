@@ -1,0 +1,13 @@
+#Donut Barrista assembley!
+
+print("Hello, Welcome to bobs Donuts")
+name = input("What is your name? \n")
+#Ian
+print("Hello " + name + ", thank you for coming in today!")
+menu = "OG Glazed, Banana, Biscoff"
+print(name + ", What would you like today? \n" + menu)
+order = input()
+#OG Glazed
+print("Sounds good " + name + ", coming right up! \n" + order + " will be ready in a moment!")
+
+#IF/ELSE - People named Bob get free donuts. 
